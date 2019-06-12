@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.Z{
+				width: 1500px;
+				height: 40px;
+			}
+			.Z ul{
+				list-style: none;
+			}
+			.Z ul li a{
+				width: 1500px;
+				text-decoration: none;
+				display: inline-block;
+	            padding: 0 700px;
+	            line-height: 50px;
+	            margin: 0 auto;
+	            font-family: "微软雅黑";
+	            font-size: 28px;
+			}
+			.X{
+				width: 1800px;
+				height: 70px;
+				background:#FFFACD;
+				margin: 20px;
+			}
+			nav.top_menu{
+                width:1500px;
+                height:70px;
+              /*background:#FFFACD;*/
+                margin:0 350px;
+              }
+    .top_menu ul li{
+                display:inline;
+                  }
+    .top_menu ul li a{
+    	        text-decoration: none;
+	
+	            display: inline-block;
+	            padding: 0 50px;
+	            line-height: 70px;
+	            font-family: "微软雅黑";
+	            font-size: 23px;
+                    }
+    .top_menu ul li a:hover{
+                background:#0095BB;
+                          }
+	.zuobian{
+		width: 300px;
+		height: 600px;
+	}
+	ul{
+	list-style: none;
+    }
+   a{
+	text-decoration: none;
+	color:#000000;
+  }
+   a:hover{
+	color: #FFA07A;
+  }	
+  .C{
+  	width: 130px;
+  	height: 70px;
+  }	
+  .C ul li a{
+  	  display: inline-block;
+  	
+  	font-family: 13px;
+  }
+  
+  
+ 
+        *{
+            margin:0;
+            padding:0;
+        }
+        .menu{
+            width: 200px;
+            height:auto;
+            margin: 0 100px;
+        }
+        .item{
+            width: 100%;
+            height:auto;
+        }
+        .item>h3{
+            height: 40px;
+            line-height: 40px;
+            background-color: #069;
+            color:#FFF;
+            padding-left: 10px;
+            border-bottom:2px solid #999;
+        }
+        .itemBox{
+            width: 100%;
+            height: 0px;
+            overflow: hidden;
+            /*display: none;*/
+            /*过渡效果：只能设置具体的值，display只能从none到block，所以不能设置*/
+            transition: height 1s;
+        }
+        .itemBox>ul{
+            list-style:none;
+            background-color: #eeeeee;
+            padding:10px;
+        }
+        .item:hover>.itemBox{
+            /*display: block;*/
+            height: 100px;
+        }
+        .item{
+            width: 100%;
+            height:auto;
+        }
+        .item>h3{
+            height: 40px;
+            line-height: 40px;
+            background-color: #069;
+            color:#FFF;
+            padding-left: 10px;
+            border-bottom:2px solid #999;
+        }
+        .itemBox1{
+            width: 100%;
+            height: 0px;
+            overflow: hidden;
+            /*display: none;*/
+            /*过渡效果：只能设置具体的值，display只能从none到block，所以不能设置*/
+            transition: height 1s;
+        }
+        .itemBox1>ul{
+            list-style:none;
+            background-color: #eeeeee;
+            padding:10px;
+        }
+        .item:hover>.itemBox1{
+            /*display: block;*/
+            height: 160px;
+        }
+    </style>
+	</head>
+	<body>
+		 <div class="Z">
+		 	<ul>
+		 		<li><a href="">我的主页</li>
+		 	</ul>
+		 </div>
+
+	<div class="X">
+     <nav class="top_menu">
+      <ul>
+      <li><a href="06/06.html">首页</a></li>
+      <li><a href="21/21.html">新闻</a></li>
+      <li><a href="13/13.html">资源</a></li>
+      <li><a href="">个人中心</a></li>
+     
+      </ul>
+    </nav>
+    </div>
+    
+    <!--<div class="zuobian">
+    <div class="C">
+    		<h3>我的视频</h3>
+    		<div class="V">
+    			<ul>
+    				<>
+    			</ul>
+      
+    	
+    	<ul>
+    		<li><a href=" ">我的照片</a></li>
+    	</ul>
+    </div>
+    <div class="C">
+    	<ul>
+    	<li><a href="">我的收藏</a></li>
+    	</ul>
+    </div>
+	</div>
+	<div class="youbian">
+		
+		
+	</div>-->
+<div class="menu">
+    <div class="item">
+        <h3>我的视频</h3>
+        <div class="itemBox">
+            <ul>
+                <li>我喜欢的</li><br>
+                <li>我收藏的</li><br>
+            </ul>
+        </div>
+    </div>
+    <div class="item">
+        <h3>我的相册</h3>
+        <div class="itemBox">
+            <ul>
+                <li>暂无</li><br>
+                <li>爱豆图片</li><br>
+            </ul>
+        </div>
+    </div>
+    <div class="item">
+        <h3>我关注的爱豆</h3>
+        <div class="itemBox1">
+            <ul>
+                <li>infinite</li><br>
+                <li>GOT7</li><br>
+                <li>NCT</li><br>
+                <li>seventeen</li><br>
+            </ul>
+        </div>
+    </div>
+    
+</div>
+</body>
+</body>
+</html>

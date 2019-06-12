@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="gbk">
+  <title>爱豆资源管理站</title>
+  <link rel="shortcut"href="favicon.ico">
+  <style>
+	.form{
+width:300px;
+margin:0 auto;
+margin-top:200px;
+}
+.form .neibu{
+width=120px;
+margin:0 auto;
+background-color:yellow;
+}
+  </style>
+</head>
+<body>
+     <main class="form">
+         <form action="success.html"method="post">
+            <fieldset>
+               <legend>登录账号</legend>
+		<div class="neibu"> <br>&nbsp;&nbsp;&nbsp;&nbsp;<laber for="name"class="left">姓&nbsp;&nbsp;名</label>
+                <input type="text"id="name"name="name"class="right"required><br><br> 
+                 &nbsp;&nbsp;&nbsp;&nbsp;<laber for="pw1"class="left">密&nbsp;&nbsp;码</label>
+                 <input type="password"id="pw1"name="pw1"class="right"required><br>
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit"class="btn"value="登录"id="register"></div>
+            </fieldset> 
+	  </form>
+<script>
+             		window.onload=function(){
+             			var registe=document.getElementById("register");
+             			registe.onclick=function(){
+             				window.location.href="21.html";
+             			}
+             		}
+             </script>
+	</main>
+</body>
+</html>

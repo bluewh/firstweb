@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="gbk">
+  <title>爱豆资源管理站</title>
+  <link rel="shortcut"href="favicon.ico">
+</head>
+<body>
+  <div class="wrap">
+   <header class="top-header">     
+        </ul>
+       </nav>
+     </header>
+     <main class="form">
+         <h3>会员申请表</h3>
+         <p>欢迎您申请会员，申请过程将不会收取任何费用。我们承诺保护您的信息安全，不会将它提供给任何第三方。</p>
+         <p>注：<span class="red">*</span>为必填内容</p>
+         <form action="success.html"method="post">
+            <fieldset>
+               <legend>账号信息</legend>
+                 <laber for="email"class="left">邮&nbsp;&nbsp;箱<span class="red">*</span>
+</label>
+                 <input type="email"id="email"name="email"class="right"required><br><br>
+                 <laber for="pw1"class="left">密&nbsp;&nbsp;码<span class="red">*</span>
+</label>
+                 <input type="password"id="pw1"name="pw1"class="right"required><br><br>
+                 <laber for="pw2"class="left">确认密码<span class="red">*</span><br>
+                 <input type="password"id="pw2"name="pw2"class="right"required><br>
+            </fieldset>
+               <fieldset>
+                <legend>个人信息</legend>
+                  <laber for="name"class="left">姓&nbsp;&nbsp;名<span class="red">*</span>
+</label>
+                <input type="text"id="name"name="name"class="right"required><br><br>   
+                  <laber for="national"class="left">国&nbsp;&nbsp;家<span class="red">*</span>
+</label>
+                  <input type="national"id="national"name="national"class="right"required><br>
+                  <laber for="district"class="left">地&nbsp;&nbsp;区<span class="red">*</span>
+                  <input type="district"id="district"name="district"class="right"required><br>
+</laber>
+                <laber for="age"class="left">年&nbsp;&nbsp;龄</label>
+                <input type="number"id="age"name="age"min="10"maxlength="3"class="right"><br><br>
+                  <div class="left">性&nbsp;&nbsp;别</div>
+                <input type="radio"id="sex_1"name="sex"value="male">
+                <label for="sex_1">男</label>  &nbsp;&nbsp;
+                <input type="radio"id="sex_2"name="sex"value="female">
+                <label for="sex_2">女</label><br><br>
+             </fieldset>
+             <fieldset>
+                <input type="reset"class="btn"value="重填">
+		<input type="submit"class="btn"value="注册"id="register">
+               </form>
+             </main>
+<script>
+             		window.onload=function(){
+             			var registe=document.getElementById("register");
+             			registe.onclick=function(){
+             				window.location.href="1.html";
+             			}
+             		}
+             </script>
+             </div>
+             <footer class="page-footer">
+             @2018 爱豆资源管理器版权所有
+             </footer>
+        </body>
+        </html>

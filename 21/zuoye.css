@@ -1,0 +1,454 @@
+﻿*{
+	padding: 0;
+	margin: 0;
+}
+
+.font6{
+	width: 1000px;
+	height: 500px;
+	border: 1px solid azure;
+	margin: 0px auto;
+	
+}
+.font6 span,.font6 h1{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	font-size:30px;
+	font-weight: 12px;
+	margin-left: 50%;
+}
+	
+.font02{
+	width: 1400px;
+    height: 70px;
+	font-size:20px;
+    vertical-align: bottom;
+    font-weight: 90px;
+    margin: 0;    
+   
+}
+.font01{
+	width: 500px
+	height: 300px;
+	margin: 0px auto;
+	margin-bottom: 0px;
+	float: left;
+	padding:0 auto;
+	-webkit-transform: width 2s;
+	
+}
+.font01 img:hover{
+	width:500px;
+	height: 230px;
+	
+}
+
+.font10{
+	width: 450px;
+	height: 250px;
+	margin: 0 auto;
+	float: left;
+	padding:10px;
+	box-sizing: border-box;
+	
+}
+.font10 p{
+	display: inline-block;
+}
+.font10 p a{
+	display: inline-block;
+	text-decoration: none;
+}
+	
+
+
+.font03{
+	width: 50%;
+	height: 100%;
+	background: #;
+	margin: 0 auto;
+	float: right;
+}
+.font8{
+	width: 500px;
+	height: 100%;
+	float:left;
+	
+}
+.font8 h1{
+	float:left;
+	display: inline-block;
+	font-size: 35px;
+	
+}
+.font8 p{
+	width: 60%;
+	display:inline-block;
+	padding-top:15px;
+	padding-left: 30px;
+}
+
+.font7{
+	width: 700px;
+	height: 100%;
+	float:right;
+	margin-right: 250px;
+}
+.font7 ul{
+	list-style: none;
+}
+.font7 ul li{
+	float:left;
+}
+.font7 ul li a{
+	text-decoration: none;
+	
+	display: inline-block;
+	padding: 0 50px;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	font-size: 23px;
+}
+.font7 ul li a:hover{
+color:white;
+	background-color:hotpink;
+}
+.font8 span{
+	display: inline-block;
+	padding:0 70px;
+	
+}
+.toubu1{
+	width: 1500px;
+	height: 40px;
+	
+}
+.toubu2{
+	width: 1800px;
+	height: 30px;
+	margin-top:3px;
+	margin-left: 550px;
+	
+}
+.toubu2 ul{
+	list-style: none;
+}
+.toubu2 ul li{
+	float:left;
+}
+.toubu2 ul li a{
+	width: 110px;
+	height: 30px;
+	display: inline-block;
+	font-family: "微软雅黑";
+    font-size: 12px;
+    margin-left: 40px;
+}
+.toubu2 ul li a:hover{
+	color:white;
+	}
+
+
+.font04{
+	width: 200px;
+	height: 200px;
+	padding 20px 20px;
+	float: left;
+}
+.font05{
+	width: 300px;
+	height: 400px;
+	padding 0px 20px;
+	float: left;
+}
+
+#div2{ 
+	width:1000px;
+	height: 500px;
+	border: 1px solid azure;
+	margin: 0px auto;
+	
+}
+#div3{ 
+	width:1000px;
+	height: 550px;
+	border: 1px solid azure;
+	margin: 0px auto;
+	
+}
+ #div3 h1{
+	width: 100%;
+	margin-bottom: 10px;
+	font-size:30px;
+	font-weight: 12px;
+	text-align:center;
+}
+#div2 h1{ 
+	width: 100%;
+	margin-bottom: 10px;
+	font-size:30px;
+	font-weight: 12px;
+	text-align:center;
+	}
+#div4{ 
+	width:1000px;
+	height: 460px;
+	border: 1px solid azure;
+	margin: 0px auto;
+	
+}
+	
+#div4 h1{ 
+	width: 100%;
+	margin-bottom: 10px;
+	font-size:30px;
+	font-weight: 12px;
+	
+	}
+.font11{
+	text-align: center;
+    padding: 36px 0;
+}
+.more{
+	color: chartreuse;
+    font-size: 16px;
+}
+.font11 a{
+	text-align: center;
+    padding: 36px 0;
+    text-decoration: none;
+
+}
+
+follow-ln {
+    width: 78px;
+    height: 78px;
+    border-radius: 100%;
+    border: 1px solid #ff488d;
+    display: block;
+    color: #ff488d;
+    text-align: center;
+    font-size: 14px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/**轮播图**/
+#frame { 
+	width: 600px;
+	height: 450px;
+	margin: 5px auto;
+	overflow: hidden;
+	position: relative;
+}
+    
+#photos {
+	width: 1200px;
+	height: 350px;
+	position: absolute;
+	left: 0;
+}
+
+#photos li {
+	list-style: none;
+	float: left;
+}
+
+#photos img {
+	width: 600px;
+	height: 345px;
+}
+
+
+*{
+	margin:0px;
+	padding:0px;
+	/*background-color:#f3f5f7;*/
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#000000;
+}
+a:hover{
+	color: #FFA07A;
+}
+.news,.hy,.hl{
+	width:1000px;
+	
+	/*background-color:#FFDAB9 ;*/
+	float:left;	
+}
+/*左边*/
+.next1{
+	height:560px ;
+	width: 1400px;
+	margin: 0 200px;
+}
+.next2{
+	height:560px ;
+	width: 1400px;
+	margin: 0 200px;
+}
+.next3{
+	height:424px ;
+	width: 1500px;
+	background-image: url(图片/渐变.jpg);
+	background-size: 1500px 500px;
+}
+.con-left{
+	width:770px;
+	/*background-color: #7FFFD4;*/
+	float:left;
+}
+.title1{
+	width:120px;
+	height:45px;
+	font-size:22px;
+	font-family:"微软雅黑";
+	font-weight:bold ;/*字体加粗*/
+	line-height:45px;/*行高*/
+	color:#000;
+	margin-left:30px;
+	/*border-bottom:1px solid #d6d6d6;*/
+	float:left;
+	text-align:center;
+}
+.hua{
+	display: inline-block;
+	float:left;
+}
+.article1{
+    width:730px;
+	height:200px;
+	padding: 20px;
+	/*background-color: yellow;*/
+	float:left;
+}
+.img1 .img-1{
+	width:250px;
+	height:180px;
+	/*background-color: azure;*/
+	float:left;
+}
+.p1{
+	width:430px;
+	height:200px;
+	float:left;
+	margin-left:20px;
+	/*background-color: honeydew;*/
+	
+}
+.text1{
+	width:400px;
+	height:30px;
+	font:15px "microsoft yahei" ;
+	line-height: 30px;
+	margin:10px 0;
+}
+h3{
+	margin:0 10px;
+}
+
+/*右边*/
+.con-right{
+	width:230px;
+	height:526px;
+	/*background-color: #DEB887;*/
+	float:left;
+}
+
+.news1{
+	width:230px;
+	height:250px;
+	border-bottom:1px solid #d6d6d6;
+    position: relative;
+}
+.news2{
+	width:230px;
+	height:250px:
+}
+.star-news1{
+	width:90px;
+	height:28px;
+	margin:10px 0 5px;
+	line-height: 28px;
+	font-size:20px;
+	color:#FFA07A;
+	/*text-align: center;*/
+	/*background-color: #BC8F8F;*/
+}
+.star-news2{
+	width:230px;
+	height:80px;
+	/*background-color: #DEB887;*/
+}
+.a{
+	width:85px;
+	height:80px;
+	display:inline-block;
+    float:left;
+}
+.news1-p{
+	width:135px;
+	height:100px;
+	/*background-color: #D6D6D6;*/
+	float:left;
+	margin-left:10px;
+	font-size:16px;
+	}
+.news1-ul{
+	float:left;
+	font-size:14px;
+	padding:5px;
+}
+.gd{
+	width:50px;
+	height:20px;
+	position:absolute;
+	top:10px;
+	right:0px;
+	font-size:10px;
+	color:#808080;
+}
+.gd:hover{
+	color:#000;
+}
+.yewei{
+			width: 1060px;
+			height: 200px;
+			margin: 0 auto;
+			margin-top: 100px;
+			margin-bottom: 60px;
+			background: gray;
+		}
+		.yewei small{
+			color: white;
+		}
+		.yewei .jiewei{
+			width: 113px;
+			margin: 0 auto;
+		}
+		.yewei  a{
+			color: white;
+		}
+		.yewei .hezuo{
+			color: white;
+			width: 700px;
+			height: 140px;
+			margin: 0 auto;
+		}
+		.yewei .hezuo1,.hezuo2,.hezuo3,.hezuo4{
+			display: inline-block;
+			width: 50px;
+			margin: 30px 50px;
+		}
+		.yewei a:hover{
+			color: rgb(0,0,180);
+		}
+
+

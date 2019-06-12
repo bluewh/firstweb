@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>爱豆资源管理站</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="06.css" />
+		<script>
+			onload = function() {
+				var click_cnt = 0;
+    			var $html = document.getElementsByTagName("html")[0];
+    			var $body = document.getElementsByTagName("body")[0];
+    			$html.onclick = function(e) {
+    				var $elem = document.createElement("b");
+        			$elem.style.color = "#FF0000";
+        			$elem.style.zIndex = 9999;
+        			$elem.style.position = "absolute";
+        			$elem.style.select = "none";
+        			var x = e.pageX;
+        			var y = e.pageY;
+        			$elem.style.left = (x - 10) + "px";
+        			$elem.style.top = (y - 20) + "px";
+        			clearInterval(anim);
+        			switch (++click_cnt) {
+        				case 5:
+                		$elem.innerText = "OωO";
+                		break;
+            			case 10:
+                		$elem.innerText = "(๑•́ ∀ •̀๑)";
+                		break;
+            			case 15:
+               			$elem.innerText = "╮(｡>口<｡)╭";
+                		break;
+            			case 20:
+               			$elem.innerText = "(๑•̀_•́๑)";
+                		break;
+            			case 25:
+                		$elem.innerText = "（￣へ￣）";
+                		break;
+            			case 30:
+                		$elem.innerText = "૮( ᵒ̌皿ᵒ̌ )ა";
+                		break;
+            			case 35:
+                		$elem.innerText = "(๑•́ ₃ •̀๑)";
+                		break;
+            			case 40:
+                		$elem.innerText = "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃";
+                		break;
+            			case 55:
+            			case 56:
+            			case 57:
+            			case 58:
+            			case 59:
+            			case 60:
+                		$elem.innerText = "(ꐦ°᷄д°᷅)";
+                		break;
+            			default:
+                		$elem.innerText = "❤";
+                		break;
+                }
+        			$elem.style.fontSize = Math.random() * 10 + 8 + "px";
+        			var increase = 0;
+        			var anim;
+        			setTimeout(function() {
+            			anim = setInterval(function() {
+                			if (++increase == 150) {
+                    		clearInterval(anim);
+                    		$body.removeChild($elem);
+                }
+                	$elem.style.top = y - 20 - increase + "px";
+                $elem.style.opacity = (150 - increase) / 120;
+            }, 8);
+        }, 70);
+        $body.appendChild($elem);
+    };
+};
+		</script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="header">
+				<div class="title"><font face="仿宋" size="4" >爱豆资源管理站</font></div>
+				<div class="login"><small><a href="../1.html">登录</a>/<a href="../2.html">注册</a></small></div>
+			</div>
+		</div>
+		<div class="nav">
+        <div class="nav-content">
+            <a href="">首页</a>
+            <a href="../21/21.html">新闻</a>
+            <a href="../13/13.html">资源</a>
+            <a href="../37/37.html">个人中心</a>
+        </div>
+    </div
+		</div>
+		<div class="sousuo">
+			<form action="https://www.baidu.com/？s">
+				<input type="text" placeholder="请输入搜索内容">
+				<input type="submit" name="wd" value="搜索">
+				</form>
+		</div>
+		
+		<div class="kongbai1"></div>
+		<div class="aidou">
+			<i>———————————————————    </i><font face="微软雅黑" size="4" >我的爱豆</font><i>  ————————————————————</i>
+		</div>
+			<div class="touxiang">
+			<a href="https://baike.baidu.com/item/INFINITE/1504271?fr=aladdin"target="_blank"><img src="picture/infinite1.jpg"width="100px"height="100px"hspace="30"></a>
+			<a href="https://baike.baidu.com/item/GOT7"target="_blank"><img src="picture/got71.jpg"width="100px"height="100px"hspace="30"></a>
+			<a href="https://baike.baidu.com/item/NCT"target="_blank"><img src="picture/seventeen1.jpg"width="100px"height="100px"hspace="30"></a>
+			<a href="https://baike.baidu.com/item/Seventeen/5175200"target="_blank"><img src="picture/NCT1.jpg"width="100px"height="100px"></a>
+			</div>
+			<div class="mingzi">
+		<div class="mingzi1">
+		<strong>INFINITE</strong>
+		</div>
+		<div class="mingzi2">
+		<strong>GOT7</strong>
+		</div>
+		<div class="mingzi3">
+		<strong>NCT</strong>
+		</div>
+		<div class="mingzi4">
+		<strong>SEVENTEEN</strong>
+		</div>
+			</div>
+		<div class="kongbai2"></div>
+		<div class="xinwen">
+			<i>———————————————————    </i><font face="微软雅黑" size="4" >新闻摘要</font><i>  ————————————————————</i>
+		</div>
+		<div class="mama">
+		<img src="picture/mama1.jpg"width=610px height=380px>
+		<mark>2018MAMA投票正式开始  最佳男团、最佳女团、男子女子新人奖等多个奖项提名公开
+			<br>SM与YG旗下艺人将不参加MAMA颁奖礼  EXO粉丝抵制2018MAMA颁奖礼</mark>
+		</div>
+		
+		
+		
+		<div class="bigbox">
+		<div class="infinite">
+			<br><div class="ti1"><strong><big>INFINITE</big></strong></div>
+			<small>
+				<a href="https://idol001.com/star/infinite.html"target="_blank">更多>>></a>
+			</small>
+			<br><br>
+			<div class="infimg1">
+		    	<img src="picture/inf1.JPG"width="260px">
+		    </div>
+		    <div class="infzi1">
+				<a href="https://idol001.com/news/infinite/detail/5be54fc5f660460f0b8b4891/"target="_blank">[INFINITE][新闻]181109东雨《Iron Mask》末放表演成功  接下来回到INFINITE!!</a>
+			</div>
+		    <br><br>
+		    <div class="infimg2">
+		    	<img src="picture/inf2.JPG"width="260px"height="190px">
+		    </div>
+		    <div class="infzi2">
+		    	<a href="https://idol001.com/news/infinite/detail/5be41930f660463e568b48ab/"target="_blank">[INFINITE][新闻]181108 迎接新年！INFINITE推出2019 SEASON'S GREETINGS</a>
+		    </div>
+		    <br><br>
+		    <div class="infimg3">
+		    	<img src="picture/inf3.JPG"width="260px">
+		    </div>
+		    <div class="infzi3">
+		    	<a href="https://idol001.com/news/infinite/detail/5be2c4c1f66046e8498b4732/"target="_blank">[INFINITE][新闻]181107 《那些日子》釜山公演日程公开 平安夜&圣诞节与优贤一起度过吧！</a>
+		    </div>
+		</div>
+			
+			
+		<div class="got7">
+			<br><div class="ti2"><strong><big>GOT7</big></strong></div>
+			<small>
+				<a href="https://idol001.com/star/got7.html"target="_blank">更多>>></a>
+			</small>
+			<br><br>
+			<div class="got1">
+				<img src="picture/got1.jpg"width="260px"height="193.45px" >
+			</div>
+			<div class="gotzi1">
+				<a href="https://idol001.com/news/got7/detail/5be55a4817f250081e8b494b/"target="_blank">[GOT7][新闻]181109《梦想的声音》王嘉尔重返90年代 玩复古重新演绎经典</a>
+			</div>
+			<br><br>
+			<div class="got2">
+				<img src="picture/got2.JPG"width="260px"height="190px">
+			</div>
+			<div class="gotzi2">
+				<a href="https://idol001.com/news/got7/detail/5be4f3fe17f250071e8b45d3/"target="_blank">[GOT7][新闻]181109 GOY7正规三辑GaonChart白金唱片达成 2018年第一个记录</a>
+			</div>
+			<br><br>
+			<div class="got3">
+				<img src="picture/got3.JPG"width="260px"height="180px">
+			</div>
+			<div class="gotzi3">
+				<a href="https://idol001.com/news/got7/detail/5be4170f17f2508d368b4735/"target="_blank">[GOT7][新闻]181108 BamBam出席AIS NEXTG活动</a>
+			</div>
+		</div>
+			
+		<div class="nct">
+			<br><div class="ti3"><strong><big>NCT</big></strong></div>
+			<small>
+				<a href="https://idol001.com/news/nct/list/2/"target="_blank">更多>>></a>
+			</small>
+			<br><br>
+			<div class="nct1">
+				<img src="picture/ntc1.JPG"width="260px"height="193.45px" >
+			</div>
+			<div class="nctzi1">
+				<a href="https://idol001.com/news/nct/detail/5be41d14f66046684e8b4942/"target="_blank">[NCT][新闻]181108 NCT LUCAS出席新加坡Moschino[TV]XH&M活动</a>
+			</div>
+			<br><br>
+			<div class="nct2">
+				<img src="picture/nct2.JPG"width="260px"height="190px">
+			</div>
+			<div class="nctzi2">
+				<a href="https://idol001.com/news/nct/detail/5be41afef660467a468b49b2/"target="_blank">[NCT][新闻]181108 中街1946"我的雪糕男友"签名会举行在即 董思成 钱锟黄旭熙仁川出发前往成都</a>
+			</div>
+			<br><br>
+			<div class="nct3">
+				<img src="picture/nct3.JPG"width="260px"height="180px">
+			</div>
+			<div class="nctzi3">
+				<a href="https://idol001.com/news/nct/detail/5be3ef60f66046684e8b4841/"target="_blank">[NCT][新闻]181108 "大热势头持续"…NCT127，11月末发表后续专辑 超高速回归</a>
+			</div>
+		</div>
+			
+			
+		<div class="seventeen">
+			<br><div class="ti4"><strong><big>SEVENTEEN</big></strong></div>
+			<small>
+				<a href="https://idol001.com/star/seventeen.html"target="_blank">更多>>></a>
+			</small>
+			<br><br>
+			<div class="seventeen1">
+				<img src="picture/svt1.JPG"width="260px"height="193.45px" >
+			</div>
+			<div class="seventeenzi1">
+				<a href="https://idol001.com/news/seventeen/detail/5be4ea3817f250061e8b456b/"target="_blank">[SEVENTEEN][新闻]181109SEVENTEEN确定出演在中国香港举办的《音乐银行in香港》</a>
+			</div>
+			<br><br>
+			<div class="seventeen2">
+				<img src="picture/svt2.JPG"width="260px"height="190px">
+			</div>
+			<div class="seventeenzi2">
+				<a href="https://idol001.com/news/seventeen/detail/5be2bd2d17f250d55a8b45ad/"target="_blank">[SEVENTEEN][新闻]181107 中国就line文俊辉 徐明浩将做客《爱我请举手》直播间 一起为追梦少年打call！</a>
+			</div>
+			<br><br>
+			<div class="seventeen3">
+				<img src="picture/svt3.JPG"width="260px"height="180px">
+			</div>
+			<div class="seventeenzi3">
+				<a href="https://idol001.com/news/seventeen/detail/5be1ad38f6604622768b4c8d/"target="_blank">[SEVENTEEN][新闻]181107 "HAPPY INFINITE THE8 DAY"SEVENTEEN 官方更新生日贺图</a>
+			</div>
+		</div>
+	</div>
+		<div class="kongbai3"></div>
+			<div class="ziyuan">
+			<i>———————————————————    </i><font face="黑体" size="4">资源更新</font><i>  ————————————————————</i>
+			</div>
+	<div class="zong">
+		<div class="big">
+			<div class="dropdown1">
+  			<button class="dropbtn1"><strong>INFINITE</strong></button>
+  			<div class="dropdown1-content1">
+    		<a href="#">图片</a>                 			
+    		<a href="#">视频</a>
+ 		 </div>
+		</div>
+		<div class="dropdown2">
+  			<button class="dropbtn2"><strong>GOT7</strong></button>
+  			<div class="dropdown2-content2">
+    		<a href="#">图片</a>                 			
+    		<a href="#">视频</a>
+ 		 </div>
+		</div>
+		<div class="dropdown3">
+  			<button class="dropbtn3"><strong>NCT</strong></button>
+  			<div class="dropdown3-content3">
+    		<a href="#">图片</a>                 			
+    		<a href="#">视频</a>
+ 		 </div>
+		</div>
+		<div class="dropdown4">
+  			<button class="dropbtn4"><strong>SEVENTEEN</strong></button>
+  			<div class="dropdown4-content4">
+    		<a href="#">图片</a>                 			
+    		<a href="#">视频</a>
+ 		 </div>
+		</div>
+		</div>
+		<div class="bigtable">
+		<div class="inft">
+		 <table width="300" height="570"  class="table" cellspacing="20px">
+               <tr>
+                <th width="180" scope="col">行程</th>
+                <th width="70" scope="col">相关资源</th></tr>
+               <td> 181102 优贤：Nam Woo Hyun 2018 1st Solo Concert “植木日” 
+               <br><br><br> 181105 东雨：《校园突袭2018》特别MC
+                <br><br><br>181106 L：品牌活动 
+                <br><br><br> 181107  李成种：Midnight Black
+                 <br><br><br>181109 圣圭音乐剧：《新兴武官学校》  
+                  <br><br><br>181118 INFINITE FAN MEETING 2018 IN TAIPEI 
+               </td>
+                <td><a href="https://idol001.com/xingcheng/detail/images/star-infinite-6801/5bb6da8ef6604676618b46d9/"target="_blank">图片(20)</a>
+                	<br><br><br><br><br<br><br>暂无
+                <br><br><br><br><a href="https://idol001.com/xingcheng/detail/images/star-infinite-6801/5be40f1a17f250d5188b4aef/"target="_blank">图片(22)</a>
+               <br><br><br><br>暂无
+               <br><br><br><br>暂无
+               <br><br><br><br>暂无
+                </td>
+		 </table>	
+		</div>
+		<div class="gott">
+		 <table width="300" height="200"  class="table" cellspacing="20px">
+               <tr>
+                <th width="180" scope="col">行程</th>
+                <th width="70" scope="col">相关资源</th></tr>
+               <td> 181106  金有谦 丛林的法则出发录制 
+               	<br><br><br>181106 有谦 BamBam 《未来日记》第一期  
+               <br><br><br> 181107 王嘉尔 《Different Game》音源公开 
+                <br><br><br>181107 BamBam Restier活动 
+                <br><br><br> 181109 王嘉尔 《梦想的声音》第三季 
+                  <br><br><br>181110 SHOPEExBamBam Fanmeet 
+               </td>
+                <td><a href="https://idol001.com/xingcheng/detail/images/star-got7-6765/5be0f22cf66046c1698b45e6/"target="_blank">图片(61)</a>
+                <br><br><br><br><br<br><br>暂无
+                <br><br><br><br>暂无
+                <br><br><br><br><a href="https://idol001.com/xingcheng/detail/images/star-got7-6765/5bdbaf1a17f2504a518b4bd8/"target="_blank">图片(339)</a>
+                <br><br><br><br><a href="https://idol001.com/xingcheng/detail/videos/star-got7-6765/5bcf0764f660463e218b475a/"target="_blank">视频(1)</a>
+               <br><br><br><br><a href="https://idol001.com/xingcheng/detail/images/star-got7-6765/5bd27edcf6604666568b48e9/"target="_blank">图片(88)</a><a href="https://idol001.com/xingcheng/detail/videos/star-got7-6765/5bd27edcf6604666568b48e9/"target="_blank">视频(3)</a>
+                </td>
+		 </table>	
+		</div>
+		<div class="ntc">
+		 <table width="300" height="200"  class="table" cellspacing="20px">
+               <tr>
+                <th width="180" scope="col">行程</th>
+                <th width="70" scope="col">相关资源</th></tr>
+               <td> 181102  NCT 127：希望BIG演唱会  
+               <br><br><br> 181103 NCT 127《Regular-Irregular》签名会 
+                <br><br><br>181104 NCT DREAM 2018 Jeju Hallyu Festival 
+                <br><br><br> 181109 我的雪糕男友 成都签名会 
+                 <br><br><br>181110 NCT DREAM 在一起才幸福Concert 
+                  <br><br><br>181110 TEN 仁川机场返韩 
+               </td>
+                <td><a href="https://idol001.com/xingcheng/detail/images/star-nct-7399/5bdd08dcf6604667248b4604/"target="_blank">图片(187)</a>
+                <br><br><br><br><a href="https://idol001.com/xingcheng/detail/videos/star-nct-7399/5bd812a417f2507b528b4741/"target="_blank">视频(1)</a>
+                <br><br><br><br><a href="https://idol001.com/xingcheng/detail/videos/star-nct-7399/5bae1592f66046d50a8b48e3/"target="_blank">视频(4)</a>
+				<br><br><br><br><a href="https://idol001.com/xingcheng/detail/images/star-nct-7399/5bc985b3f660460d528b475d/"target="_blank">图片(17)</a>
+               <br><br><br><br>暂无
+               <br><br><br><br>暂无
+                </td>
+		 </table>	
+		</div>
+		<div class="svt">
+		 <table width="300" height="200"  class="table" cellspacing="20px">
+               <tr>
+                <th width="180" scope="col">行程</th>
+                <th width="70" scope="col">相关资源</th></tr>
+               <td> 181101 SBS Super concert IN 水原  
+               	<br><br><br> 181107   徐明浩生日 
+               <br><br><br> 181108 IDEAL CUT Naver X Dispatch小卡拍摄花絮照公开   
+                <br><br><br>181110 文俊辉&徐明浩：《爱我请举手》直播 
+                 <br><br><br>181111  Joshua知秀- DK硕珉-Vernon韩率-Dino李灿：XtvN 《Heol Quiz》第2回    
+                  <br><br><br>181122 李知勋生日 
+               </td>
+                <td><a href="https://idol001.com/xingcheng/detail/videos/star-seventeen-7424/5bda6bc717f250562d8b45df/"target="_blank">视频(2)</a>
+                <br><br><br><br>暂无
+                <br><br><br><br><a href="https://idol001.com/xingcheng/detail/images/star-seventeen-7424/5be3af02f66046694e8b4645/"target="_blank">图片(85)</a>	
+                <br><br><br><br>暂无
+               <br><br><br><br><br><br>暂无
+               <br><br><br><br><a href="https://idol001.com/xingcheng/detail/videos/star-seventeen-7424/592aac2c7a1173ff0f8b468c/"target="_blank">视频(2)</a>	
+                </td>
+		 </table>	
+		</div>
+		</div>
+		</div>
+		<div class="yewei">
+			<div class="jiewei"><small><a href="#">返回顶部</a>|<a href="mailto:1748808318@qq.com">联系我们</a></small></div>
+			<div class="hezuo">合作网站   
+				<div class="hezuo1"><a href="http://www.youku.com/"target="_blank">优酷</a><br><br><img src="picture/youku.jpg"width="45px"></div>
+				<div class="hezuo2"><a href="https://v.qq.com/?ptag=qqbsc"target="_blank">腾讯</a><br><br><img src="picture/tengxun.jpg"width="45px"></div>     
+				<div class="hezuo3"><a href="http://www.yinyuetai.com/"target="_blank">音悦台</a><br><br><img src="picture/yinyuetai.jpg"width="45px"></div>     
+				<div class="hezuo4"><a href="https://idol001.com/"target="_blank">爱豆</a><br><br><img src="picture/aidou.jpg"width="45px"></div>
+			</div>
+		</div>
+	</body>
+</html>
